@@ -4,7 +4,7 @@
 
 This repo provides the implementation code corresponding to our AAAI-25 paper entitled *Through The Dual-Prism: A Spectral Perspective On Graph Data Augmentation For Graph Classification*.
 
-[[Paper](https://github.com/yu-rp/DualPrism/blob/main/assets/cr.pdf) [[Appendix](https://github.com/yu-rp/DualPrism/blob/main/assets/app.pdf)]
+[[Paper](https://github.com/yu-rp/DualPrism/blob/main/assets/cr.pdf)] [[Appendix](https://github.com/yu-rp/DualPrism/blob/main/assets/app.pdf)]
 
 TL;DR - DP method is a graph data augmentation in spectral space, consisting of two steps, analogous to light passing through a prism twice. First, the graph is transformed into the spectral space. After altering the eigenvalues, the graph is reconstructed from the spectral space. We observe that simply adding noise or masking the eigenvalues in the spectral space can effectively achieve data augmentation.
 ![Framework of the proposed method.](assets/framework.png)
@@ -53,4 +53,4 @@ If you find our work useful in your research, please cite:
 
 ## Code Reference
 
-- [gmixup](https://github.com/ahxt/g-mixup): We would like to thank the author for their nice work and codebase.
+- [G-Mixup](https://github.com/ahxt/g-mixup): We would like to thank the author for their nice work and codebase.
